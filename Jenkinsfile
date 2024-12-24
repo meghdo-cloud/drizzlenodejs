@@ -1,7 +1,7 @@
-library identifier: 'goPipeline@main', retriever: modernSCM([$class: 'GitSCMSource',
+library identifier: 'nodejsPipeline@main', retriever: modernSCM([$class: 'GitSCMSource',
     remote: 'git@github.com:meghdo-cloud/shared-libraries.git',
     credentialsId: 'jenkins_agent_ssh'])
-goPipeline (
+nodejsPipeline (
     projectId: "meghdo-4567",
     clusterName: "meghdo-cluster",
     clusterRegion: "europe-west1",
