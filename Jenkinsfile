@@ -8,7 +8,7 @@ commonPipeline (
     appName: "drizzlenodejs",
     dockerRegistry: "europe-west1-docker.pkg.dev",
     namespace: "default",
-    scanOWASP: "false"  // OWASP Scanning takes about 7-10 min of scanning time, turn on when scanning is needed
+    scanOWASP: "false",  // OWASP Scanning takes about 7-10 min of scanning time, turn on when scanning is needed
     label: 'nodejs'
 ) {
     container('nodejs') {
